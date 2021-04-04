@@ -12,12 +12,6 @@ github_username: jekyllwriter
 gems:
   - jekyll-paginate
 markdown: kramdown
-<<<<<<< HEAD
 baseurl: "/guzi"
 theme: jekyll-theme-leap-day
 excerpt_separator: "\n\n"
-=======
-baseurl: /guzi
-theme: jekyll-theme-leap-day
-excerpt_separator: \n\n
->>>>>>> 6c43687294ea2b887c58e7292f3bf0171aea64f1
