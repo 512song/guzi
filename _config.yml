@@ -13,5 +13,5 @@ gems:
   - jekyll-paginate
 markdown: kramdown
 baseurl: "/guzi"
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-modernist
 excerpt_separator: "\n\n\n"
