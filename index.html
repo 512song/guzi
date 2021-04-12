@@ -12,7 +12,7 @@ layout: default
         </h2>
         <span class="post-meta">{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %} | {{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post-excerpt">{{ post.excerpt }}</div>
-        <div class="全文"><a href="{{ post.url | prepend: site.baseurl }}">Read more &raquo;</a></div>
+        <div class="read-more"><a href="{{ post.url | prepend: site.baseurl }}">全文 &raquo;</a></div>
       </li>
     {% endfor %}
   </ul>
