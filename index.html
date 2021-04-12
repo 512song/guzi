@@ -14,6 +14,7 @@ layout: default
         <div class="post-excerpt">{{ post.excerpt }}</div>
         <div class="read-more"><a href="{{ post.url | prepend: site.baseurl }}">全文 &raquo;</a></div>
       </li>
+      <hr>
     {% endfor %}
   </ul>
   {% if paginator.total_pages > 1 %}
